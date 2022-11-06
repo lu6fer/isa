@@ -1,0 +1,13 @@
+
+@font-face {
+  font-family: "Cooper";
+  src: url('../fonts/CooperBlackRegular.ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+@tailwind base;
+@tailwind components;
+.h1 {
+    @apply font-bold text-3xl;
+}
+@tailwind utilities;
