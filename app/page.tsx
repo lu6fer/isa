@@ -21,14 +21,25 @@ export default function HomePage() {
         <h1 className="text-4xl font-cooper uppercase text-center">
           Tarifs
         </h1>
-        <div className="grid grid-cols-3 gap-5 justify-items-center">
-          <Card />
-          <Card />
-          <Card />
+        <div className="mt-5 gap-5 flex items-center justify-start flex-wrap flex-col lg:grid lg:grid-cols-2 lg:justify-items-center">
+          <Card
+            title="Massage sur Futon"
+          />
+          <Card
+            title="Massage sur chaise"
+          />
+
         </div>
-        <div className="mt-5 gap-5 grid grid-cols-2 justify-items-center">
-          <Card />
-          <Card />
+        <div className="mt-5 gap-5 flex items-center justify-start flex-wrap flex-col lg:grid lg:grid-cols-3 lg:justify-items-center">
+          <Card
+            title="Forfait 3 scéances"
+          />
+          <Card
+            title="Forfait 5 sceances"
+          />
+          <Card
+            title="Forfait entreprise"
+          />
         </div>
       </section>
     </div>
