@@ -7,7 +7,7 @@ const nextConfig = {
   },
   output: 'standalone',
   images: {
-    domains: ['dummyimage.com'],
+    domains: ['dummyimage.com', 'loremflickr.com'],
   }
 }
 

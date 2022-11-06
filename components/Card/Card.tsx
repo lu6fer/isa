@@ -43,12 +43,16 @@ export default function Card(props: CardProps) {
           'opacity-100 blur-none': isVisible
         })}
       >
-        <Image className="img-card" src='https://dummyimage.com/250x300/eee/aaa' alt='dummy' width={150} height={260} />
+        <Image className="img-card" src='https://loremflickr.com/250/300' alt='dummy' width={150} height={260} />
       </div>
-      <h2>{title}</h2>
-      <p>
-        {children}
-      </p>
+      <div className={clx("transition-all duration-150 pacity-0 blur-md", {
+        'opacity-100 blur-none': isVisible
+      })}>
+        <h2>{title}</h2>
+        <p>
+          {children}
+        </p>
+      </div>
     </div>
   )
 }

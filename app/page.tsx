@@ -24,7 +24,14 @@ export default function HomePage() {
         <div className="mt-5 gap-5 flex items-center justify-start flex-wrap flex-col lg:grid lg:grid-cols-2 lg:justify-items-center">
           <Card
             title="Massage sur Futon"
-          />
+          >
+            60euros l’heure
+            35euros la demi-heure
+
+            Inclus le temps d’accueil mais prévoir 15minutes de plus la
+            1 ère séance pour faire un petit bilan sur vos antécédents et
+            vos besoins.
+          </Card>
           <Card
             title="Massage sur chaise"
           />
